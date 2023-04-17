@@ -1,0 +1,59 @@
+svg {
+  fill: currentColor;
+}
+body {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: $primary-text-color;
+  background-color: $primary-background-color;
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+address {
+  font-style: normal;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+.logo {
+  color: #2196f3;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}

@@ -1,0 +1,46 @@
+.start {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  background-color: #212121;
+  text-align: center;
+  background-image: url('../images/imagenpricipal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 180px;
+
+  .start__button {
+    color: #ffffff;
+    background-color: #2196f3;
+    border: 1px solid;
+    border-color: #2196f3;
+    border-radius: 4px;
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    margin-top: 20px;
+    gap: 10px;
+  }
+
+  .start__button:hover {
+    color: #ffffff;
+    background-color: #2196f3;
+    cursor: pointer;
+  }
+}

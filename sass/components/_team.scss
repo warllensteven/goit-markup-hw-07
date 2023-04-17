@@ -1,0 +1,105 @@
+.team {
+  background-color: #f5f4fa;
+
+  .team__section {
+    height: 648px;
+    background-color: #f5f4fa;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .team__tittle {
+    color: #212121;
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  .team__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+  }
+}
+
+.team__items {
+  .team__img p {
+    color: #757575;
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .team__img {
+    background: white;
+    width: 260px;
+    height: 428px;
+    box-shadow: 0px 1px 3px 0px #0000001f;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  .team__img img {
+    width: 270px;
+    height: 260px;
+  }
+
+  .team__img h3 {
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .team__img p {
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+  }
+}
+
+.team__img {
+  .team__social {
+    height: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 5px;
+  }
+
+  .team__icons {
+    color: #afb1b8;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+
+  .team__icons:hover {
+    color: #ffffff;
+    background-color: #2196f3;
+    transition-property: color;
+    transition: ease-in;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic-bezier);
+  }
+}
